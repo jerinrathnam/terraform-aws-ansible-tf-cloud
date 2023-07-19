@@ -1,4 +1,4 @@
-variable "server_ip" {
+variable "server_ips" {
   type        = list(string)
   description = "List of IP addresses of the server need to sun ansible"
 }
